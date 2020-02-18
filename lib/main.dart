@@ -53,6 +53,7 @@ class RandomWordState extends State<RandomWords> {
     // final wordPair = WordPair.random();
     return Scaffold(
       appBar: AppBar(
+        
         title: Text('Startup Name Generator'),
       ),
       body: _buildSuggestions(),
